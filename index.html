@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simulador de Cuenta Bancaria</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="index.js"></script>
+</head>
+<body>
+  <header>
+    <h1>Simulador de Cuenta Bancaria</h1>
+  </header>
+  <main>
+    <section>
+      <h2>Datos de la cuenta</h2>
+      <p>Saldo: <span id="saldo">$ 0.00</span></p>
+      <p>Número de cuenta: <span id="num-cuenta">1234567890</span></p>
+    </section>
+    <section>
+      <h2>Movimientos</h2>
+      <ul id="movimientos"></ul>
+    </section>
+    <section>
+      <h2>Realizar movimiento</h2>
+      <form id="form-movimiento">
+        <label for="concepto">Concepto:</label>
+        <select id="concepto" name="concepto">
+          <option value="sueldo">Sueldo</option>
+          <option value="pago-tarjeta">Pago tarjeta</option>
+          <option value="transferencia">Transferencia</option>
+          <option value="impuestos">Impuestos</option>
+          <option value="prestamo-personal">Préstamo personal</option>
+          <option value="deposito">Depósito</option>
+          <option value="retiro">Retiro</option>
+          <option value="compra">Compra</option>
+          <option value="servicios">Servicios</option>
+          <option value="dividendos">Dividendos</option>
+          <option value="intereses">Intereses</option>
+        </select>
+        <label for="monto">Monto:</label>
+        <input type="number" id="monto" name="monto" step="0.01">
+        <label for="tipo">Tipo:</label>
+        <select id="tipo" name="tipo">
+          <option value="ingreso">Ingreso</option>
+          <option value="egreso">Egreso</option>
+        </select>
+        <button id="btn-movimiento">Realizar movimiento</button>
+      </form>
+    </section>
+  </main>
+ 
+</body>
+</html>

@@ -1,0 +1,46 @@
+[
+    {
+      "id": 1,
+      "concepto": "Sueldo"
+    },
+    {
+      "id": 2,
+      "concepto": "Pago tarjeta"
+    },
+    {
+      "id": 3,
+      "concepto": "Transferencia"
+    },
+    {
+      "id": 4,
+      "concepto": "Impuestos"
+    },
+    {
+      "id": 5,
+      "concepto": "Préstamo personal"
+    },
+    {
+      "id": 6,
+      "concepto": "Depósito"
+    },
+    {
+      "id": 7,
+      "concepto": "Retiro"
+    },
+    {
+      "id": 8,
+      "concepto": "Compra"
+    },
+    {
+      "id": 9,
+      "concepto": "Servicios"
+    },
+    {
+      "id": 10,
+      "concepto": "Dividendos"
+    },
+    {
+      "id": 11,
+      "concepto": "Intereses"
+    }
+  ]
